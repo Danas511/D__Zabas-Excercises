@@ -1,0 +1,13 @@
+let funnyNumber = 12345; console.log(toString(funnyNumber)) // Convert to String
+let funnyString = '12345'; console.log(Number(funnyString))// Convert to Number
+let funnyTrue = '1'; console.log(Boolean(funnyTrue)) // Convert to Boolean
+let funnyFalse = '0'; console.log(Boolean(funnyFalse)) // Convert to Boolean
+let isTrue = false; console.log(String(isTrue)) // Convert to String
+let isFalse = true; console.log(Number(isFalse)) // Convert to Number
+let funnyText = 'JavaScript is dynamic programming language.'; console.log(Number(funnyText)) // Convert to Number
+let funnyNull = null; console.log(String(funnyNull)) // Convert to String
+let funnyUndefined = undefined; console.log(String(funnyUndefined)) // Convert to String
+let isTrue2 = true; console.log(String(isTrue2)) // Convert to String
+let isFalse2 = false; console.log(String(isFalse2)) // Convert to String
+let booleanString = 'true'; console.log(Number(booleanString)) // Convert to Number
+let otherBooleanString = 'false'; console.log(Boolean(otherBooleanString)) // Convert to Boolean
