@@ -1,0 +1,8 @@
+console.log(5)
+console.log(5n)
+console.log("five")
+console.log(true)
+console.log(undefined)
+console.log(null)
+console.log([])
+console.log(typeof[])
