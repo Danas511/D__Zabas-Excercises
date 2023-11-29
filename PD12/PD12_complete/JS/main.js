@@ -43,4 +43,28 @@ console.log("fastest runner finished in "+top_speed+"s "+(average_time-top_speed
 
 let something = 112
 let other_thing = 11
+let days2 = (something / (other_thing*2))*1.5
+days2 = Math.floor(days2)
+console.log("it has "+days2+" days of fuel")
+ 
+let bus1_passengers = 17
+let bus1_traveltime = 110
+let bus2_passengers = 25
+let bus2_traveltime = 120
+let total_capacity = bus1_passengers + bus2_passengers
+let average_traveltime = (bus1_traveltime + bus2_traveltime) / 2
+let low_passenger_busses = 0
+if(bus1_passengers <= 10 ){low_passenger_busses += 1}
+if(bus2_passengers <= 10 ){low_passenger_busses += 1}
+console.log("total bus capacity is "+total_capacity+" passengers with an avarage traveltime of "+average_traveltime+" minutes and there are "+low_passenger_busses+" busses with less than 10 passengers")
+
+let steps_forward = 5
+let steps_back = 3
+let times = 3
+let forward_distance = 50
+let back_distance = 45
+let time_taken = 5
+let total_distance = ((steps_forward*forward_distance)-(steps_back*back_distance))*times
+let speed2 = (((steps_forward*forward_distance)+(steps_back*back_distance))*times)/(time_taken* 100)
+console.log("traveled a total distance of"+total_distance+"cm with a speed of"+speed2+"m/s")
 
